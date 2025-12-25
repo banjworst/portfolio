@@ -1,7 +1,7 @@
 function Header() {
     return (
         <header>
-            <h1> Sanjay Sutherland </h1>
+            <h1> Sanjay Sutherland - Software Engineer </h1>
             <nav>
                 <a href="#about">About</a>
                 <a href="#projects">Projects</a>
