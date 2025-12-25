@@ -5,31 +5,32 @@
 }
 
 body {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif;
+  font-family: 'Courier New', monospace
   line-height: 1.6;
   color: #333;
-  background: white;
+  background: #1a1a1a;
 }
 
 .App {
   max-width: 100%;
   margin: 0 auto;
   padding: 20px;
-  background: white;
+  background: #1a1a1a;  
   min-height:100vh;
 }
 
 /* header */
 header {
   padding: 40px 0 20px 0;
-  border-bottom: 2px solid #eee;
+  border-bottom: 2px solid #6a0dad;
   margin-bottom: 40px
 }
 
 header h1 {
   margin-bottom: 15px;
-  color: #2c3e50;
+  color: #00ff00;
   font-size: 2.5rem;
+  text-shadow: 0 0 10px #00ff00;
 }
 
 nav {
@@ -39,14 +40,14 @@ nav {
 
 nav a {
   text-decoration: none;
-  color: #3498db;
+  color: #bb86fc;
   font-weight: 500;
   font-size: 1.1rem;
   transition: color 0.2s;
 }
 
 nav a:hover {
-  color: #2980b9;
+  color: #00ff00;
   text-decoration: underline;
 }
 
@@ -57,21 +58,22 @@ section {
 }
 
 section h2 {
-  margin-bottom: 60px;
+  margin-bottom: 30px;
   font-size: 2rem;
-  color: #2c3e50;
-  border-bottom: 3px solid #3498db;
+  color: #00ff00;
+  border-bottom: 3px solid #6a0dad;
   padding-bottom: 10px;
   display: inline-block;
+  text-shadow: 0 0 10px #00ff00;
 }
 
 section p {
   font-size: 1.1rem;
   margin-bottom: 15px;
-  color: #555;
+  color: #b0b0b0;
 }
 
-/* Prtojects Grid */
+/* Projects Grid */
 .projects-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -87,28 +89,28 @@ section p {
 }
 
 .project-card {
-  background: white;
-  border: 1px solid #ddd;
+  background: #2a2a2a;
+  border: 1px solid #6a0dad;
   border-radius: 8px;
   padding: 25px;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  box-shadow: 0 2px 8px rgba(106,13,173,0.3);
   transition: all 0.3s;
 }
 
 .project-card:hover {
-  box-shadow: 0 8px 16px rgba(0,0,0,0.15);
+  box-shadow: 0 8px 20px rgba(106,13,173,0.6);
   transform: translateY(-5px);
-  border-color: #3498db
+  border-color: purple;
 }
 
 .project-card h3 {
-  margin-bottom: 20px;
-  color: #2c3e50;
+  margin-bottom: 15px;
+  color: #bb86fc;
   font-size: 1.5rem;
 }
 
 .project-card p {
-  color: #666;
+  color: #b0b0b0;
   margin-bottom: 20px;
   line-height: 1.6;
 }
@@ -121,8 +123,9 @@ section p {
 }
 
 .tech-tag {
-  background:#e3f2fd;
-  color: #1976d2;
+  background:#1a1a1a;
+  color: #00ff00;
+  border: 1px solid #00ff00;
   padding: 6px 14px;
   border-radius: 20px;
   font-size: 0.9rem;
@@ -139,32 +142,36 @@ section p {
 
 .project-links a {
   text-decoration: none;
-  color: #3498db;
+  color: #bb86fc;
   font-weight: 600;
   transition: color 0.2s;
 }
 
 .project-links a:hover {
-  color: #2980b9;
+  color: #00ff00;
   text-decoration: underline;
 }
 
 .project-links span {
-  color: #999;
+  color: #666;
   font-style: italic;
 }
 
 /* Contact Section */
 #contact p {
   margin: 10px 0;
+  color: #b0b0b0;
 }
 
 #contact a {
-  color: #3498db;
+  color: #bb86fc;
   text-decoration: none;
+  transition: all 0.2s;
 }
 
 #contact a:hover {
+  color: #00ff00;
+  text-shadow: 0 0 8px #00ff00;
   text-decoration: underline;
 }
 
